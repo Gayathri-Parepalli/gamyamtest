@@ -1,0 +1,20 @@
+.card{
+    width: calc(30% - 20px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    background-color: #ffffff;
+   
+}
+  
+  @media only screen and (max-width: 992px) {
+    .card {
+      width: calc(50% - 20px);
+    }
+  }  
+ 
+  @media only screen and (max-width: 576px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
